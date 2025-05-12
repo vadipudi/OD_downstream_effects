@@ -4,6 +4,8 @@
 
 **Abstract:**  
 When fitting machine learning models on datasets, there is a possibility of mistakes occurring with overfitting due to outliers. Such mistakes can lead to incorrect predictions and diminished model usefulness. Outlier detection is conducted as a precursor step to avoid these errors and improve model performance. This study compares how different outlier detection methods impact regression, classification, and clustering tasks. Multiple outlier detection algorithms were applied to clean various datasets; the cleaned data were then used to train downstream models. Performance with and without outlier removal was compared to identify trends. The study found that while supervised tasks (regression and classification) benefit only marginally, unsupervised clustering tasks can see considerable improvement—most notably when using Isolation Forest (IForest) and Principal Component Analysis (PCA).
+### Thesis link
+https://www.proquest.com/dissertations-theses/comparative-study-outlier-detection-methods-their/docview/3074303204/se-2?accountid=14696
 
 ## Table of Contents
 
@@ -145,4 +147,10 @@ Relative changes with and without outlier removal are quantified to assess the i
    git clone https://github.com/your_username/thesis-outlier-detection.git
    cd thesis-outlier-detection
    ```
-# OD_downstream_effects
+
+
+
+## Citation
+
+Adipudi, V. (2024). A comparative study of outlier detection methods and their downstream effects (Order No. 31241133). Available from ProQuest Dissertations & Theses Global. (3074303204). Retrieved from https://www.proquest.com/dissertations-theses/comparative-study-outlier-detection-methods-their/docview/3074303204/se-2
+
